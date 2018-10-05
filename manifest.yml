@@ -1,0 +1,15 @@
+---
+applications:
+- name: rest-api-crud-postgresql
+  memory: 1GB
+  instances: 1
+  random-route: true
+  buildpack: java_buildpack
+  path: build/libs/spring-postgresql-demo-2.0.0.jar
+  env:
+    SPRING_PROFILES_ACTIVE: dev
+    SPRING_DATABASE_URL:  jdbc:postgresql://localhost:5432/elections
+    SPRING_DATASOURCE_USERNAME: postgres
+    SPRING_DATASOURCE_PASSWORD: mind
+  services:
+    - elections
