@@ -38,12 +38,16 @@ GET Endpoints :
                  http://localhost:8082/elections
                  http://localhost:8082/elections/15
                  http://localhost:8082/profile/vote-totals
+                 http://localhost:8082/elections/summary
 
 PUT Endpoint:
+                 http://localhost:8082/candidates/{id}
                  
 POST Endpoints:
-                   
+                http://localhost:8082/candidates   
 
 DELETE Endpoints:
+                http://localhost:8082/candidates/{id}
+                
                  
 
