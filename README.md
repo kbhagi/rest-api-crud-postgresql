@@ -32,29 +32,29 @@ https://localhost:8082/actuator/health
 https://localhost:8085/actuator/metrics
 
 -     GET Endpoints : 
-                  - http://localhost:8082/candidates/summary
+                  - `http://localhost:8082/candidates/summary`
 
-                  - http://localhost:8082/candidates
+                  - `http://localhost:8082/candidates`
 
-                  - http://localhost:8082/candidates/26
+                  - `http://localhost:8082/candidates/26`
 
-                   -http://localhost:8082/elections
+                  - `http://localhost:8082/elections`
 
-                  - http://localhost:8082/elections/15
+                  -  `http://localhost:8082/elections/15`
 
-                  - http://localhost:8082/profile/vote-totals
+                  - `http://localhost:8082/profile/vote-totals`
 
-                   -http://localhost:8082/elections/summary
+                  - `http://localhost:8082/elections/summary`
 
  -     PUT Endpoint:
-                   - http://localhost:8082/candidates/{id}
+               -   `http://localhost:8082/candidates/{id}`
                  
                  
 -      POST Endpoints:
-               -     http://localhost:8082/candidates   
+               -     `http://localhost:8082/candidates`   
                
 -      DELETE Endpoints:
-               -     http://localhost:8082/candidates/{id}        
+               -    `http://localhost:8082/candidates/{id}`        
                
                
                
